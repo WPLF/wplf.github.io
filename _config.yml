@@ -1,3 +1,34 @@
 theme: jekyll-theme-minimal
 title: WPLF's homepage
-description: Bookmark this to keep an eye on my project updates!
+
+
+name: "WPLF's blog"
+description: "李金梁的个人技术博客"
+
+navigation:
+  - name: 首页
+    url: /
+  - name: 关于
+    url: /about
+  - name: 分类
+    url: /tags
+
+paginate: 8
+
+excerpt_separator: <!-- more -->
+
+footer-links:
+  zhihu: 
+  email: xiongyunhan@outlook.com
+  facebook:
+  github: pianfan
+  rss: # just type anything here for a working RSS icon
+  twitter: 
+  youtube:
+
+footer-text: Copyright (c) 2024 Pianfan
+
+url: https://pianfan.github.io
+
+permalink: /:title/
+paginate_path: /page:num/
