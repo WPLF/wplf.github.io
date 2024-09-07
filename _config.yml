@@ -1,10 +1,10 @@
 # theme: jekyll-theme-minimal
 # theme: minimal-mistakes-jekyll
+# remote_theme: pages-themes/minimal@v0.2.0
+remote_theme: sighingnow/jekyll-gitbook
 title: WPLF's homepage
 
-remote_theme: pages-themes/minimal@v0.2.0
-plugins:
-- jekyll-remote-theme # add this line to the plugins list if you already have one
+
 
 name: "WPLF's blog"
 description: "李金梁的个人技术博客"
@@ -16,6 +16,9 @@ navigation:
     url: /about
   - name: 分类
     url: /tags
+
+
+syntax_highlighter_style: colorful
 
 paginate: 8
 
@@ -33,3 +36,7 @@ url: https://wplf.github.io
 permalink: /:title/
 paginate_path: /page:num/
   - LICENSE
+
+
+plugins:
+- jekyll-remote-theme # add this line to the plugins list if you already have one
