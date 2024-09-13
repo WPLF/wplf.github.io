@@ -20,19 +20,19 @@ google_font_precon_url: https://fonts.gstatic.com
 #               Language
 ###########################################################
 # need to match filename in _data/lang/[language].yml
-default_lng: en
+default_lng: zh
 
 # to prevent adding languages with no folder
 # single language disables language switch
 # language order is linked to array order
-language_switch_lang_list: [en, ja, pt, fr, zh, ko, tr]
+language_switch_lang_list: [zh, en]
 
 # if the opened page is not in the user's language list,
 # suggest language(s) matching with the one(s) in browser language list and user language list.
-language_translation_offer_box: true
+language_translation_offer_box: false
 
 # Disable 3rd party translation suggestion for pages with translation.
-language_translation_offer_disable_ext_translation: true
+language_translation_offer_disable_ext_translation: false
 
 # select one below
 # 1. slideBoxTopToDown
@@ -47,7 +47,7 @@ html_lng_with_country_code: true
 language_switch_hover_effect: "hover-effect"
 
 # this enables top nav language switch
-language_switch_top_nav: false
+language_switch_top_nav: true
 
 # replace text with owner[language].brand
 brand_replace: "$site_brand"
@@ -71,7 +71,7 @@ search_enable: true
 # if this is true, search list hides with mouse leave event
 # if this is false, search list hides with mouse click event
 # for mobile devices, it's better to be turned off.
-search_list_hide_mouseleave: false
+search_list_hide_mouseleave: true
 
 # to disable auto search while typing
 # when using mobile browser, search result is shown while typing, but you need to push search button on keyboard.
